@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Paving Service Request and Job Management System - a dynamic web development course project." />
+    <title>@ViewData["Title"] | Paving Service Management</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="course-banner">Dynamic Web Development <span>/</span> Part II: Project Shell</div>
+    <header class="site-header"><nav class="nav-wrap" aria-label="Main navigation">
+        <a class="brand" asp-controller="Home" asp-action="Index"><span class="brand-mark" aria-hidden="true">P</span><span>Paving Service<br /><small>Request &amp; Job Management</small></span></a>
+        <div class="nav-links">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Home" asp-action="Services">Services</a>
+            <a asp-controller="Dashboard" asp-action="Index">Dashboard preview</a>
+            <a asp-controller="Home" asp-action="ProjectPlan">Project plan</a>
+            <a class="button button-small" asp-controller="Requests" asp-action="Create">Request form</a>
+        </div>
+    </nav></header>
+    <main id="main" class="container">@RenderBody()</main>
+    <footer class="site-footer"><div class="container footer-inner"><span>Paving Service Request and Job Management System</span><a asp-controller="Home" asp-action="Privacy">Prototype privacy notice</a></div></footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
