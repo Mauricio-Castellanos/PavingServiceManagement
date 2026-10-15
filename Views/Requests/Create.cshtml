@@ -1,0 +1,22 @@
+@model ServiceRequestInput
+@using PavingServiceManagement.Services
+@{ ViewData["Title"] = "Request form prototype"; }
+<section class="page-heading"><p class="eyebrow">Service request</p><h1>Tell us about the project.</h1><p class="lead">Preview the information a customer would provide to the paving team.</p></section>
+<p class="notice"><strong>Prototype only.</strong> Use fictional information. This form validates input but does not save or send a request.</p>
+@if (TempData["PrototypeMessage"] is string message) { <div class="success-message" role="status">@message</div> }
+<div class="form-layout">
+<form asp-controller="Requests" asp-action="Create" method="post" class="panel" novalidate>
+    <h2>Contact &amp; property details</h2><p class="muted small">All fields are required except project details.</p>
+    <div asp-validation-summary="All" class="validation-summary" role="alert"></div>
+    <div class="form-grid">
+        <div class="field"><label asp-for="FullName"></label><input asp-for="FullName" autocomplete="off" aria-describedby="name-error" /><span id="name-error" asp-validation-for="FullName"></span></div>
+        <div class="field"><label asp-for="Email"></label><input asp-for="Email" autocomplete="off" aria-describedby="email-error" /><span id="email-error" asp-validation-for="Email"></span></div>
+        <div class="field"><label asp-for="Phone"></label><input asp-for="Phone" autocomplete="off" aria-describedby="phone-error" /><span id="phone-error" asp-validation-for="Phone"></span></div>
+        <div class="field"><label asp-for="ServiceType"></label><select asp-for="ServiceType" aria-describedby="service-error"><option value="">Select a service</option>@foreach (var service in ServiceCatalog.All) { <option value="@service.Name">@service.Name</option> }</select><span id="service-error" asp-validation-for="ServiceType"></span></div>
+        <div class="field full-width"><label asp-for="PropertyAddress"></label><input asp-for="PropertyAddress" autocomplete="off" aria-describedby="address-error" /><span id="address-error" asp-validation-for="PropertyAddress"></span></div>
+        <div class="field full-width"><label asp-for="Description"></label><textarea asp-for="Description" rows="4" aria-describedby="details-error"></textarea><span id="details-error" asp-validation-for="Description"></span></div>
+    </div>
+    <button class="button" type="submit">Test form validation</button>
+</form>
+<aside class="panel aside-panel"><p class="eyebrow">What happens next?</p><h2>The planned request process</h2><ol class="spaced-list"><li>A request will be saved with a reference number.</li><li>An administrator will review the project and contact the customer.</li><li>A registered customer will be able to track their own request.</li></ol><p class="muted small">These steps will be added in later course sections.</p></aside>
+</div>
