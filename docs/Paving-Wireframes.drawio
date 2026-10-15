@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="Service request" id="page-1">
+    <mxGraphModel dx="850" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="PAVING SERVICE MANAGEMENT     |     Home     Services     Sign in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ededed;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="7" width="754" height="55" />
+        </mxCell>
+        <mxCell id="n2" value="Request a paving service&lt;br&gt;Tell us what you need and where the work will take place." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f6f6f6;strokeColor=#939993;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="80" width="754" height="81" />
+        </mxCell>
+        <mxCell id="n3" value="Full name *" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="184" width="341" height="32" />
+        </mxCell>
+        <mxCell id="n4" value="Email address *" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="397" y="184" width="341" height="32" />
+        </mxCell>
+        <mxCell id="n5" value="[ Customer name ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="219" width="341" height="46" />
+        </mxCell>
+        <mxCell id="n6" value="[ name@example.com ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="397" y="219" width="341" height="46" />
+        </mxCell>
+        <mxCell id="n7" value="Phone number *" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="281" width="341" height="32" />
+        </mxCell>
+        <mxCell id="n8" value="Requested service *" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="397" y="281" width="341" height="32" />
+        </mxCell>
+        <mxCell id="n9" value="[ Phone number ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="316" width="341" height="46" />
+        </mxCell>
+        <mxCell id="n10" value="[ Select service                         v ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="397" y="316" width="341" height="46" />
+        </mxCell>
+        <mxCell id="n11" value="Property address *" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="378" width="348" height="32" />
+        </mxCell>
+        <mxCell id="n12" value="[ Street, city, state, postal code ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="413" width="712" height="46" />
+        </mxCell>
+        <mxCell id="n13" value="Project details (optional)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="476" width="348" height="32" />
+        </mxCell>
+        <mxCell id="n14" value="[ Describe the paving or repair work needed ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="510" width="712" height="93" />
+        </mxCell>
+        <mxCell id="n15" value="Submit service request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="26" y="625" width="268" height="52" />
+        </mxCell>
+        <mxCell id="n16" value="Already a customer? Sign in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="312" y="625" width="426" height="52" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Staff job dashboard" id="page-2">
+    <mxGraphModel dx="850" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n17" value="PAVING SERVICE MANAGEMENT     |     Home     Services     Sign in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ededed;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="7" width="754" height="55" />
+        </mxCell>
+        <mxCell id="n18" value="Job dashboard                                              Signed in: Administrator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f6f6f6;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="80" width="754" height="64" />
+        </mxCell>
+        <mxCell id="n19" value="New&lt;br&gt;4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="164" width="174" height="87" />
+        </mxCell>
+        <mxCell id="n20" value="Scheduled&lt;br&gt;3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="202" y="164" width="174" height="87" />
+        </mxCell>
+        <mxCell id="n21" value="In progress&lt;br&gt;2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="394" y="164" width="174" height="87" />
+        </mxCell>
+        <mxCell id="n22" value="Completed&lt;br&gt;8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="587" y="164" width="175" height="87" />
+        </mxCell>
+        <mxCell id="n23" value="[ Search customer or request ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="274" width="362" height="49" />
+        </mxCell>
+        <mxCell id="n24" value="[ Status: All     v ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="387" y="274" width="216" height="49" />
+        </mxCell>
+        <mxCell id="n25" value="Filter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ddddee;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="621" y="274" width="142" height="49" />
+        </mxCell>
+        <mxCell id="n26" value="ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="348" width="58" height="46" />
+        </mxCell>
+        <mxCell id="n27" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="67" y="348" width="138" height="46" />
+        </mxCell>
+        <mxCell id="n28" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="204" y="348" width="130" height="46" />
+        </mxCell>
+        <mxCell id="n29" value="Date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="348" width="94" height="46" />
+        </mxCell>
+        <mxCell id="n30" value="Status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="429" y="348" width="130" height="46" />
+        </mxCell>
+        <mxCell id="n31" value="Actions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="348" width="203" height="46" />
+        </mxCell>
+        <mxCell id="n32" value="1001" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="394" width="58" height="51" />
+        </mxCell>
+        <mxCell id="n33" value="Sample A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="67" y="394" width="138" height="51" />
+        </mxCell>
+        <mxCell id="n34" value="Driveway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="204" y="394" width="130" height="51" />
+        </mxCell>
+        <mxCell id="n35" value="[date]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="394" width="94" height="51" />
+        </mxCell>
+        <mxCell id="n36" value="New" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="429" y="394" width="130" height="51" />
+        </mxCell>
+        <mxCell id="n37" value="View / Assign" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="394" width="203" height="51" />
+        </mxCell>
+        <mxCell id="n38" value="1002" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="445" width="58" height="51" />
+        </mxCell>
+        <mxCell id="n39" value="Sample B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="67" y="445" width="138" height="51" />
+        </mxCell>
+        <mxCell id="n40" value="Repair" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="204" y="445" width="130" height="51" />
+        </mxCell>
+        <mxCell id="n41" value="[date]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="445" width="94" height="51" />
+        </mxCell>
+        <mxCell id="n42" value="Scheduled" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="429" y="445" width="130" height="51" />
+        </mxCell>
+        <mxCell id="n43" value="View / Update" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="445" width="203" height="51" />
+        </mxCell>
+        <mxCell id="n44" value="1003" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="496" width="58" height="51" />
+        </mxCell>
+        <mxCell id="n45" value="Sample C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="67" y="496" width="138" height="51" />
+        </mxCell>
+        <mxCell id="n46" value="Sealcoating" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="204" y="496" width="130" height="51" />
+        </mxCell>
+        <mxCell id="n47" value="[date]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="335" y="496" width="94" height="51" />
+        </mxCell>
+        <mxCell id="n48" value="In progress" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="429" y="496" width="130" height="51" />
+        </mxCell>
+        <mxCell id="n49" value="View / Update" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="496" width="203" height="51" />
+        </mxCell>
+        <mxCell id="n50" value="Selected job weather&lt;br&gt;Location: [city]    Forecast: [date]    Temperature: [value + units]    Rain: [value]&lt;br&gt;Source: Open-Meteo    Retrieved: [time]    [Unavailable message when needed]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#939993;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="571" width="754" height="109" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Sign-in screen" id="page-3">
+    <mxGraphModel dx="850" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n51" value="PAVING SERVICE MANAGEMENT     |     Home     Services     Sign in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ededed;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="9" y="7" width="754" height="55" />
+        </mxCell>
+        <mxCell id="n52" value="Welcome back&lt;br&gt;Sign in to manage your paving requests or assigned jobs." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f6f6f6;strokeColor=#939993;fontSize=14;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="94" y="102" width="583" height="83" />
+        </mxCell>
+        <mxCell id="n53" value="Email address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="123" y="216" width="348" height="32" />
+        </mxCell>
+        <mxCell id="n54" value="[ name@example.com ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="123" y="251" width="525" height="52" />
+        </mxCell>
+        <mxCell id="n55" value="Password" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="123" y="325" width="348" height="32" />
+        </mxCell>
+        <mxCell id="n56" value="[ Password - masked input ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="123" y="360" width="525" height="52" />
+        </mxCell>
+        <mxCell id="n57" value="[ Generic sign-in error appears here ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#939993;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="123" y="438" width="525" height="49" />
+        </mxCell>
+        <mxCell id="n58" value="Sign in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dddddd;strokeColor=#939993;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="123" y="510" width="525" height="55" />
+        </mxCell>
+        <mxCell id="n59" value="Create a customer account  |  Return to services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="123" y="584" width="525" height="49" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
