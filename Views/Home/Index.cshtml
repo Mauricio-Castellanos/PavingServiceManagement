@@ -1,0 +1,26 @@
+@model IReadOnlyList<ServiceOption>
+@{ ViewData["Title"] = "Home"; }
+<section class="hero">
+    <div><p class="eyebrow">From the first request to the finished job</p>
+        <h1>Paving projects.<br /><span>One organized place.</span></h1>
+        <p class="hero-copy">A simpler way for customers to request paving services and for the team to keep job information together.</p>
+        <div class="actions"><a class="button" asp-controller="Requests" asp-action="Create">Explore the request form &rarr;</a><a class="text-link" asp-controller="Dashboard" asp-action="Index">View dashboard preview</a></div>
+        <p class="muted small">Course prototype. Requests are not saved or sent.</p>
+    </div>
+    <aside class="workflow" aria-label="Planned service workflow">
+        <div class="workflow-heading"><span class="eyebrow">The planned workflow</span><span class="tag">3 steps</span></div>
+        <div class="workflow-step"><span class="step-number">01</span><div><h2>Request a service</h2><p>Share the service, property details, and best way to reach you.</p></div></div>
+        <div class="workflow-step"><span class="step-number">02</span><div><h2>Review &amp; schedule</h2><p>The team reviews the request and plans the next step.</p></div></div>
+        <div class="workflow-step"><span class="step-number">03</span><div><h2>Track the job</h2><p>Keep assignments, progress, and job notes in one place.</p></div></div>
+    </aside>
+</section>
+<section class="section" aria-labelledby="services-heading">
+    <div class="section-heading"><div><p class="eyebrow">Services</p><h2 id="services-heading">Start with the work you need.</h2></div><a class="text-link" asp-controller="Home" asp-action="Services">View service details &rarr;</a></div>
+    <div class="card-grid">@for (var i = 0; i < Model.Count; i++) {
+        <article class="service-card"><span class="service-number">0@(i + 1)</span><h3>@Model[i].Name</h3><p>@Model[i].Description</p><a asp-controller="Requests" asp-action="Create">Preview a request &rarr;</a></article>
+    }</div>
+</section>
+<section class="section access-section" aria-labelledby="access-heading">
+    <div><p class="eyebrow">Built around people</p><h2 id="access-heading">A place for each part of the team.</h2><p class="muted">Planned access for the completed system.</p></div>
+    <dl class="access-list"><div><dt>Visitors &amp; customers</dt><dd>Browse services, submit requests, and track personal requests after signing in.</dd></div><div><dt>Employees</dt><dd>View assigned jobs and update their progress.</dd></div><div><dt>Administrators</dt><dd>Review requests, schedule work, and manage accounts.</dd></div></dl>
+</section>

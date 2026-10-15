@@ -1,0 +1,8 @@
+@{ ViewData["Title"] = "Project plan"; }
+<section class="page-heading"><p class="eyebrow">Part II scope</p><h1>A foundation for the full system.</h1><p class="lead">This submission establishes the MVC structure and user-interface direction.</p></section>
+<div class="two-column">
+<section class="panel"><h2>Working in this shell</h2><ul class="spaced-list"><li>ASP.NET Core MVC project and Visual Studio solution.</li><li>Responsive landing page and shared navigation.</li><li>Service catalog passed from controller to view.</li><li>Request form with server-side validation and anti-forgery protection.</li><li>Dashboard preview populated with fictional sample records.</li></ul></section>
+<section class="panel"><h2>Planned for later sections</h2><ul class="spaced-list"><li>Database storage and request create, read, update, and delete operations.</li><li>Sign-in using ASP.NET Core Identity.</li><li>Customer, Employee, and Administrator roles with ownership checks.</li><li>Job scheduling, assignments, and status history.</li><li>Weather forecasts from the Open-Meteo public API.</li></ul></section>
+</div>
+<section class="panel section"><h2>How MVC fits together</h2><dl class="access-list"><div><dt>Model</dt><dd>Describes service and request data, including input validation rules.</dd></div><div><dt>View</dt><dd>Razor views display the landing page, form, catalog, and dashboard preview.</dd></div><div><dt>Controller</dt><dd>Responds to routes, checks submitted data, and chooses the view to display.</dd></div></dl></section>
+<p class="notice">No database, sign-in, role enforcement, or live weather connection is implemented in this shell. The requirements and wireframes describe the intended completed system.</p>

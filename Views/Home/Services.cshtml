@@ -1,0 +1,7 @@
+@model IReadOnlyList<ServiceOption>
+@{ ViewData["Title"] = "Services"; }
+<section class="page-heading"><p class="eyebrow">Service catalog</p><h1>Plan your next paving project.</h1><p class="lead">These sample services establish the catalog for the course project.</p></section>
+<div class="card-grid">@foreach (var service in Model) {
+    <article class="service-card"><h2>@service.Name</h2><p>@service.Detail</p><a class="text-link" asp-controller="Requests" asp-action="Create">Explore the request form &rarr;</a></article>
+}</div>
+<p class="notice">Pricing, availability, and job dates would be confirmed by the paving team after reviewing a request. This prototype does not accept bookings.</p>
